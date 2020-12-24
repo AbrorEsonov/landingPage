@@ -216,6 +216,10 @@
      padding-bottom: 80px;
     }
 
+    .right {
+      height: 100%;
+    }
+
   .right-container {
     display: flex;
     flex-wrap: wrap;
@@ -227,13 +231,13 @@
   }
 
   .text-wrapper .title {
-    font-size: 20px;
-    padding: 0 5px;
+    font-size: 32px;
+    padding: 15px;
   }
 
   .text-wrapper .lead {
-    font-size: 16px;
-    padding: 0 5px;
+    font-size: 24px;
+    padding: 0 15px 15px 15px;
   }
 
   .right {
