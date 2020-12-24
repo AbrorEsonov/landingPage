@@ -1,0 +1,123 @@
+.people__section {
+    padding: 80px 0 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #fafafa;
+  }
+  
+  .people__container-card {
+    background: linear-gradient(45deg, #0660e9 0%, #276afb 100%); 
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2); 
+    width: 400px;
+    height: 500px;
+    border-radius: 4px;
+  }
+
+  .people__container-card:nth-child(2) {
+    margin: 0 24px;
+  }
+  
+  .people__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .people__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+  
+  .people__topline {
+    color: #1c2237;
+    margin-left: 24px;
+    font-size: 20px;
+  }
+  
+  .people__headline {
+    color: #1c2237;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  .people__container-cardInfo {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .people__container-cardInfo p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .people__container-cardInfo h4 {
+    font-size: 40px;
+  }
+  
+  .people__container-features {
+    margin: 16px 0 32px;
+  }
+  
+  
+  .people__container-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .people__container-text {
+    margin-top: 14px;
+    margin-bottom: 28px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+ .people__image {
+    margin: 24px 0;
+  } 
+
+  .people__image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .people__join {
+    text-decoration: none;
+    font-size: 24px;
+    padding-top: 30px;
+    color:red;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .people__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .people__container-card {
+      width: 90%;
+    }
+  
+    .people__wrapper {
+      margin: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .people__container-card:nth-child(2) {
+      margin: 24px;
+    }
+  }

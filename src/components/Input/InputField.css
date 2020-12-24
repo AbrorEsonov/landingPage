@@ -1,0 +1,241 @@
+.wrapper {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.left {
+  padding: 20px 40px;
+  flex: 1;
+  margin-right: 20px;
+  text-align: left;
+  height: 300px;
+}
+
+.left form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.input,
+.button {
+  margin-bottom: 10px;
+  width: 400px;
+  font-size: 20px;
+  padding: 10px 25px;
+  border: 2px solid #35b6f1;
+  background: #f1f8fe;
+  border-radius: 5px;
+}
+
+.input:active {
+  border: 4px solid #35b6f1;
+}
+
+.button {
+  width: 150px;
+  float: right;
+  cursor: pointer;
+  margin-top: 7px;
+  font-weight: normal;
+  margin-left: 250px;
+}
+
+.button:hover {
+  background-color: #35b6f1;
+  color: white;
+}
+
+.label {
+  font-size: 19px;
+  margin-top: 7px;
+  font-weight: bold;
+  width: 400px;
+}
+
+::placeholder,
+.label,
+.button {
+  color: #4c9ed8;
+}
+
+.right {
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px 40px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background-color: #c9e2f8;
+  font-family: "Roboto Slab", serif;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container {
+  background-image: url("../../assets/man-in-suit2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  margin-right: 20px;
+  height: 180px;
+  width: 400px;
+}
+
+.text-wrapper {
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #2e95c5;
+}
+
+.text-wrapper  .title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.text-wrapper .lead {
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1700px) {
+  .text-wrapper .title {
+    font-size: 28px;
+  }
+
+  .text-wrapper .lead {
+    font-size: 20px;
+  }
+
+  .img-container {
+    padding: 5px;
+  }
+
+  .img-container {
+    margin-right: 20px;
+    height: 150px;
+    width: 360px;
+  }
+
+  .right,
+  .left {
+    padding: 12px 24px;
+  }
+
+  .label,
+  .input,
+  .button {
+    font-size: 24px;
+  }
+  .wrapper {
+      padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 30px;
+    padding-bottom: 80px;
+  }
+
+  .left,
+  .right {
+    padding: 10px;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .right {
+    margin: 0;
+    padding: 0 30px;
+    padding-bottom: 60px;
+  }
+
+  .button {
+    width: 400px;
+    margin: 0;
+  }
+
+  .wrapper {
+    padding-bottom: 80px;
+  }
+
+  .left form {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+    .wrapper {
+        padding-bottom: 80px;
+    }
+  .left form {
+    width: 100%;
+  }
+  .left {
+    flex: 1;
+    width: 100%;
+  }
+  .right {
+      padding-bottom: 60px;
+  }
+  .input,
+  .button,
+  .label {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+     padding-bottom: 80px;
+    }
+
+  .right-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-container {
+    margin: 20px 10px;
+    width: 300px;
+  }
+
+  .text-wrapper .title {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+
+  .text-wrapper .lead {
+    font-size: 16px;
+    padding: 0 5px;
+  }
+
+  .right {
+    padding: 0;
+  }
+}
