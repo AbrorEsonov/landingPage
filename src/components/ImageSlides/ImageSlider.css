@@ -1,4 +1,5 @@
 .slider {
+    overflow-x: hidden;
     position: relative;
     height: 100vh;
     display: flex;

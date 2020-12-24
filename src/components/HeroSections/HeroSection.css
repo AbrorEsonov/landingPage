@@ -1,6 +1,7 @@
 .home__hero-section {
     color: #fff;
-    padding: 160px 0;
+    padding-top: 160px;
+    padding-bottom: 160px;
   }
   
   .home__hero-row {
